@@ -1,5 +1,6 @@
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./CSS/tasktracker.css">
 </head>
 <body>
@@ -11,7 +12,7 @@
         <p class="version">v2.0</p>
     </header>
     <section class="input">
-        <h2 class="create_task">Create a Task</h2>
+        <p class="create_task">Create a Task</p>
         <form id="task">
             <label class="form-label">Task Name</label><br>
             <input class="form-text name" type="text" name="name" required>
@@ -26,10 +27,11 @@
         </form>
     </section>
     <section class="output">
-        <h2 class="existing_task">Existing Tasks</h2>
+        <p class="existing_task">Existing Tasks</p>
         <div class="task-wrapper">
         </div>
     </section>
 </div>
+<p id='output_data'></p>
 </body>
 </html>

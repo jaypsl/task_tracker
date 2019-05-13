@@ -39,8 +39,7 @@ section {
 
 .create_task {
     font-family:Serif;
-    font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.5em;
     margin-left: 30px;
     margin-top: 30px;
 }
@@ -98,6 +97,9 @@ form {
     font-size: 14px;
     padding-left: 10px;
     float: left;
+    padding: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .etask_date {
     font-family: Sans-Serif;
@@ -106,18 +108,48 @@ form {
     margin: 18px 0px;
     padding-left: 5px;
     float: left;
+    padding: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .etask_assigned {
     font-family: Sans-Serif;
     font-size: 14px;
     padding-right: 10px;
     float: right;
+    padding: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .existing_task {
     font-family: Serif;
-    font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.5em;
     margin-left: 30px;
     margin-top: 30px;
+}
+
+@media screen and (max-width:800px){
+    .wrapper{
+        width:90%;
+        height:140%;
+    }
+    section{
+        width: 96%;
+    }
+    .form-text {
+    width: 100%;
+    height: 40px;
+    }
+    form{
+        margin-right:10px;
+    }
+    .task-wrapper {
+    width: 90%;
+    height: auto;
+    
+    }
+    .etask_item{
+        width:98%
+    }
 }
